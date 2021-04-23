@@ -1,0 +1,17 @@
+.container-btn {
+    padding-top: 4rem;
+    height: 4rem;
+    position: absolute;
+  }
+  
+  .vertical-center {
+    overflow-x: hidden;
+    padding-top: 2rem;
+    margin-left: 32rem;
+    margin-bottom: -3rem;
+    padding-bottom: -30rem;
+    position: absolute;
+    top: 20%;
+    -ms-transform: translateY(-30%);
+    transform: translateY(-30%);
+  }

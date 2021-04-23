@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Zen+Dots&display=swap');
+
+.navigation {
+    text-decoration: none;
+    background-color: #404040;
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.navbar-text {
+    font-size: 2rem;
+    justify-content: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-text:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.about-txt {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar-text {
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+}
